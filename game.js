@@ -29,7 +29,7 @@ function init(){
 	enemy = [];
 	redraw = true;
 	backGroundColor = "#E0F0FF";
-	groundColor = "61C071"
+	groundColor = "#61C071"
 	ctx.fillStyle = backGroundColor;
 	ctx.fillRect(0,0,width,height);
 
