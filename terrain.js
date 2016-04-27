@@ -37,6 +37,7 @@ function drawTerrain(points){
 
     ctx.beginPath();
     ctx.moveTo(0,canvas.height);
+    ctx.strokeStyle = "005C09"
 
     for (var i = 0; i < points.length; i+=1) {
         ctx.lineTo(i,points[i]);
